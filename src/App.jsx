@@ -36,7 +36,7 @@ function App() {
         }
 
 let winner;
-
+console.log('asdasd')
  for (const combination of WINNING_COMBINATIONS) {
   const firstSquareSymbol = gameBoard[combination[0].row][combination[0].column];
   const secondSquareSymbol = gameBoard[combination[1].row][combination[1].column];
